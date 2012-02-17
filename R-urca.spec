@@ -13,6 +13,8 @@ Requires:         R-methods
 Requires:         R-nlme R-graphics R-stats 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
 BuildRequires:    R-nlme R-graphics R-stats 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Unit root and cointegration tests encountered in applied econometric
