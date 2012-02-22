@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.2-6.tar.gz
-Requires:         R-methods 
-Requires:         R-nlme R-graphics R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
-BuildRequires:    R-nlme R-graphics R-stats 
+Requires:         R-methods R-nlme R-graphics R-stats
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-nlme R-graphics R-stats
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
