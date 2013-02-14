@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2_6
+Version:          1.2.7
 Release:          1
 Summary:          Unit root and cointegration tests for time series data
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.2-6.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/urca_1.2-7.tar.gz
 Requires:         R-methods 
 Requires:         R-nlme R-graphics R-stats 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
@@ -51,11 +51,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2_6-1
-+ Revision: 776276
-- Import R-urca
-- Import R-urca
-
