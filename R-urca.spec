@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.8
-Release:          1
+Release:          2
 Summary:          Unit root and cointegration tests for time series data
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
